@@ -95,7 +95,7 @@ address {
   overflow: hidden;
 }
 
-.subtitle {
+/* .subtitle {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -103,29 +103,29 @@ address {
 
   margin-bottom: 72px;
   text-align: center;
-}
+} */
 
-.under-subtitle {
+/* .under-subtitle {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
 
   margin-bottom: 8px;
-}
+} */
 
-.container {
+/* .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 
 .text {
   color: var(--secondary-text-color-light-background);
@@ -238,7 +238,7 @@ address {
 /*/---------------------------HEADER-------------------------*/
 
 /*---------------------------HERO-------------------------*/
-.page-hero {
+/* .page-hero {
   padding-top: 188px;
   padding-bottom: 188px;
 
@@ -253,9 +253,9 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-}
+} */
 
-.hero-title {
+/* .hero-title {
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-text-color-dark-background);
@@ -282,22 +282,22 @@ address {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--primary-color-accent);
-}
+} */
 
 /*/---------------------------HERO-------------------------*/
 
 /*---------------------------ADVANTAGES-SECTION------------------------*/
 
-.advantages-list {
+/* .advantages-list {
   display: flex;
   gap: var(--card-set-gap);
-}
+} */
 
-.advantages-item {
+/* .advantages-item {
   flex-basis: calc((100% - 3 * var(--card-set-gap)) / 4);
-}
+} */
 
-.icons-advantages-border {
+/* .icons-advantages-border {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,36 +306,38 @@ address {
   background-color: var(--secondary-light-background);
   border-radius: 4px;
   margin-bottom: 8px;
-}
+} */
 
-.icons-advantages {
+/* .icons-advantages {
   width: 64px;
   height: 64px;
-}
+} */
 
 /*/---------------------------ADVANTAGES-SECTION------------------------*/
 
 /*---------------------------WORKS-SECTION-----------------------*/
 
-.page-works {
+/* .page-works {
   padding-top: 0;
 }
 
 .works-list {
   display: flex;
   gap: var(--card-set-gap);
-}
+} */
 
 /*/---------------------------WORKS-SECTION-----------------------*/
 
 /*---------------------------TEAM-SECTION-----------------------*/
 
-.page-team {
+/* .page-team {
   background-color: var(--secondary-light-background);
 }
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: var(--card-set-gap);
 }
 
@@ -382,12 +384,12 @@ address {
   width: 16px;
   height: 16px;
   fill: var(--secondary-light-background);
-}
+} */
 
 /*/---------------------------TEAM-SECTION-----------------------*/
 
 /*-----------------------CUSTOMERS-SECTION------------------------*/
-.customers-list {
+/* .customers-list {
   display: flex;
   justify-content: center;
 }
@@ -422,7 +424,7 @@ address {
 .customers-link:focus .customers-icon,
 .customers-link:hover .customers-icon {
   fill: var(--primary-color-accent);
-}
+} */
 
 /*/---------------------------CUSTOMERS-SECTION-----------------------*/
 
@@ -516,7 +518,7 @@ address {
 
 /*---------------------------FOOTER-----------------------*/
 
-.footer {
+/* .footer {
   background-color: var(--primary-dark-background);
   padding-top: 100px;
   padding-bottom: 100px;
@@ -539,9 +541,9 @@ address {
   color: var(--secondary-text-color-dark-background);
   width: 264px;
   margin-top: 16px;
-}
+} */
 /*/-----------------------FOOTER-LINKS------------------------*/
-.social-link-footer {
+/* .social-link-footer {
   margin-right: 80px;
 }
 
@@ -580,9 +582,9 @@ address {
   width: 24px;
   height: 24px;
   fill: var(--secondary-light-background);
-}
+} */
 /*/-----------------------FOOTER-FORM------------------------*/
-.footer-form-place {
+/* .footer-form-place {
   display: flex;
 }
 
@@ -635,7 +637,7 @@ address {
 .footer-icon-form {
   fill: #ffffff;
   margin-left: 16px;
-}
+} */
 /*/---------------------------FOOTER-----------------------*/
 
 /*---------------------------MODAL WINDOW-----------------------*/

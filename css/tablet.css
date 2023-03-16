@@ -1,0 +1,73 @@
+@media screen and (min-width: 768px) {
+  /* COMPONENTS */
+  .container {
+    width: 768px;
+  }
+  /* HERO */
+  .page-hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 42px;
+  }
+  /* ADVANTAGES */
+  .advantages-list {
+    gap: 72px 24px;
+    justify-content: flex-start;
+  }
+  .advantages-item {
+    flex-basis: calc((100% - var(--card-set-gap)) / 2);
+  }
+  /* TEAM */
+  .team-list {
+    gap: 64px 24px;
+  }
+  /* CUSTOMERS */
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
+  .customers-link {
+    width: 168px;
+  }
+  .customers-icon {
+    width: 104px;
+  }
+  /* FOOTER */
+  .footer {
+    padding-left: 108px;
+  }
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .footer-about {
+    margin-right: 24px;
+    margin-left: 0;
+    align-items: flex-start;
+  }
+  .social-link-footer {
+    align-items: flex-start;
+  }
+  .footer-form {
+    align-items: flex-start;
+  }
+  .footer-form-input {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .footer-form-place {
+    flex-direction: row;
+  }
+  .footer-text {
+    width: 264px;
+  }
+}
