@@ -9,7 +9,22 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-
+  /* HEADER */
+  .logo-light-background {
+    margin-right: 76px;
+  }
+  .address-list {
+    display: flex;
+    align-items: center;
+  }
+  .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .address-item:not(:last-child) {
+    margin-right: 40px;
+  }
   /* HERO */
   .page-hero {
     padding-top: 188px;
@@ -26,7 +41,6 @@
   }
   .advantages-list {
     gap: var(--card-set-gap);
-    justify-content: center;
   }
   .advantages-item {
     flex-basis: calc((100% - 3 * var(--card-set-gap)) / 4);
@@ -62,9 +76,18 @@
   .team-list {
     gap: 24px;
   }
-  /* CUSTOMERS */
-  .customers-item {
-    flex-basis: calc((100% - 5 * 24px) / 6);
+  /* PROJECTS */
+  .page-projects {
+    padding-top: 96px;
+  }
+  .projects-filtr {
+    margin-bottom: 72px;
+  }
+  .projects-objects {
+    gap: 48px 24px;
+  }
+  .projects-cards {
+    flex-basis: calc((100% - 48px) / 3);
   }
   /* FOOTER */
   .footer-container {

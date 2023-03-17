@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <!-- <header class="page-header">
+    <header class="page-header">
       <div class="container header-container">
         <nav class="page-nav">
           <a class="logo-light-background logo" href="./index.html"
@@ -42,7 +42,7 @@
             </li>
           </ul>
         </nav>
-        <address>
+        <address class="address">
           <ul class="address-list list">
             <li class="address-item">
               <a class="address-link link text" href="mailto:info@devstudio.com"
@@ -56,8 +56,89 @@
             </li>
           </ul>
         </address>
+        <button class="btn-menu-open" type="button" data-menu-open>
+          <svg class="icon-menu-btn">
+            <use href="./images/icons.svg#icon-menu-mob"></use>
+          </svg>
+        </button>
+        <div class="backdrop-menu is-hidden" data-menu>
+          <div class="modal-menu">
+            <button
+              class="modal-close-btn menu-btn"
+              type="button"
+              data-menu-close
+            >
+              <svg class="modal-icon-btn">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg>
+            </button>
+            <ul class="page-menu-modal list">
+              <li class="menu-item-modal">
+                <a class="menu-link-modal subtitle link" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="menu-item-modal">
+                <a class="menu-link-modal subtitle link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="menu-item-modal">
+                <a
+                  class="menu-link-modal subtitle link current"
+                  href="./index.html"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+            <ul class="address-list-modal list">
+              <li class="tel-item-modal">
+                <a class="tel-link-modal link subtitle" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="address-item-modal">
+                <a
+                  class="address-link-modal link text"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="social-list-menu list">
+              <li class="social-item-menu">
+                <a href="#" class="social-links-menu link">
+                  <svg class="social-icons-menu">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item-menu">
+                <a href="#" class="social-links-menu link">
+                  <svg class="social-icons-menu">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item-menu">
+                <a href="#" class="social-links-menu link">
+                  <svg class="social-icons-menu">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item-menu">
+                <a href="#" class="social-links-menu link">
+                  <svg class="social-icons-menu">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </header> -->
+    </header>
     <main>
       <section class="page-hero">
         <div class="container">
@@ -525,5 +606,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/modal-menu.js"></script>
   </body>
 </html>
