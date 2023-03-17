@@ -180,7 +180,7 @@ address {
   padding-bottom: 112px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   margin: 0 auto;
 }
 
@@ -229,7 +229,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/bg-desktop@1x.jpg);
-    /* max-width: 768px; */
+    max-width: 1440px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
