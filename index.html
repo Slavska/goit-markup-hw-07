@@ -57,8 +57,8 @@
           </ul>
         </address>
         <button class="btn-menu-open" type="button" data-menu-open>
-          <svg class="icon-menu-btn" width="32px" height="22px">
-            <use href="./images/icons.svg#icom-menu-mob"></use>
+          <svg class="icon-menu-btn">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger-5"></use>
           </svg>
         </button>
         <div class="backdrop-menu is-hidden" data-menu>
@@ -213,6 +213,10 @@
           <ul class="works-list list">
             <li>
               <img
+                srcset="
+                  ./images/works/computer@1x.jpg 1x,
+                  ./images/works/computer@2x.jpg 2x
+                "
                 src="./images/works/websites.jpg"
                 alt="website on a computer"
                 width="360"
@@ -221,6 +225,10 @@
             </li>
             <li>
               <img
+                srcset="
+                  ./images/works/chat@1x.jpg 1x,
+                  ./images/works/chat@2x.jpg 2x
+                "
                 src="./images/works/bots.jpg"
                 alt="open chats on phone"
                 width="360"
@@ -229,6 +237,10 @@
             </li>
             <li>
               <img
+                srcset="
+                  ./images/works/app@1x.jpg 1x,
+                  ./images/works/app@2x.jpg 2x
+                "
                 src="./images/works/apps.jpg"
                 alt="open app on phone"
                 width="360"
@@ -243,12 +255,31 @@
           <h2 class="subtitle">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                src="./images/team/Mark-Guerrero.jpg"
-                alt="pictured Mark Guerrero"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/photo-team-1-desktop@1x.jpg 1x,
+                    ./images/team/photo-team-1-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/team/photo-team-1-tablet@1x.jpg 1x,
+                    ./images/team/photo-team-1-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/team/photo-team-1-mob@1x.jpg 1x,
+                    ./images/team/photo-team-1-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="./images/team/Mark-Guerrero.jpg"
+                  alt="pictured Mark Guerrero"
+                  width="264"
+                  height="260"
+              /></picture>
               <div class="team-card-wrapper">
                 <h3 class="under-subtitle">Mark Guerrero</h3>
                 <p class="text">Product Designer</p>
@@ -285,12 +316,31 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/team/Tom-Ford.jpg"
-                alt="pictured Tom Ford"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/photo-team-2-desktop@1x.jpg 1x,
+                    ./images/team/photo-team-2-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/team/photo-team-2-tablet@1x.jpg 1x,
+                    ./images/team/photo-team-2-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/team/photo-team-2-mob@1x.jpg 1x,
+                    ./images/team/photo-team-2-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="./images/team/Tom-Ford.jpg"
+                  alt="pictured Tom Ford"
+                  width="264"
+                  height="260"
+              /></picture>
               <div class="team-card-wrapper">
                 <h3 class="under-subtitle">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
@@ -327,12 +377,35 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/team/Camila-Garcia.jpg"
-                alt="pictured Camila Garcia"
-                width="264"
-                height="260"
-              />
+              <picture
+                ><source
+                  srcset="
+                    ./images/team/photo-team-3-desktop@1x.jpg 1x,
+                    ./images/team/photo-team-3-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/photo-team-3-tablet@1x.jpg 1x,
+                    ./images/team/photo-team-3-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/photo-team-3-mob@1x.jpg 1x,
+                    ./images/team/photo-team-3-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/team/Camila-Garcia.jpg"
+                  alt="pictured Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="team-card-wrapper">
                 <h3 class="under-subtitle">Camila Garcia</h3>
                 <p class="text">Marketing</p>
@@ -369,12 +442,31 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/team/Daniel-Wilson.jpg"
-                alt="pictured Daniel Wilson"
-                width="264"
-                height="260"
-              />
+              <picture
+                ><source
+                  srcset="
+                    ./images/team/photo-team-4-desktop@1x.jpg 1x,
+                    ./images/team/photo-team-4-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/team/photo-team-4-tablet@1x.jpg 1x,
+                    ./images/team/photo-team-4-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/team/photo-team-4-mob@1x.jpg 1x,
+                    ./images/team/photo-team-4-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="./images/team/Daniel-Wilson.jpg"
+                  alt="pictured Daniel Wilson"
+                  width="264"
+                  height="260"
+              /></picture>
               <div class="team-card-wrapper">
                 <h3 class="under-subtitle">Daniel Wilson</h3>
                 <p class="text">UI Designer</p>
