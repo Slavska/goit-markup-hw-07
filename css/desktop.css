@@ -1,4 +1,4 @@
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   /* COMPONENTS */
   .section {
     padding-top: 120px;
@@ -24,6 +24,9 @@
   }
   .address-item:not(:last-child) {
     margin-right: 40px;
+  }
+  .menu-link {
+    padding: 24px 0 28px 0;
   }
   /* HERO */
   .page-hero {
@@ -110,5 +113,9 @@
 
   .footer-container {
     align-items: baseline;
+  }
+  .modal {
+    width: 408px;
+    height: 584px;
   }
 }

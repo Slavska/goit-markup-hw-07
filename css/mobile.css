@@ -83,6 +83,9 @@ address {
   color: var(--secondary-color-accent);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -569,8 +572,8 @@ address {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  height: 584px;
+  width: 392px;
+  height: 586px;
   border-radius: 4px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -757,12 +760,11 @@ address {
 }
 
 .backdrop-menu {
-  padding: 80px 35px 40px 40px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -773,6 +775,7 @@ address {
 .modal-menu {
   display: flex;
   flex-direction: column;
+  padding: 80px 35px 40px 40px;
 }
 .menu-item-modal:not(:last-child) {
   margin-bottom: 40px;
@@ -782,6 +785,8 @@ address {
 }
 .tel-item-modal {
   margin-bottom: 40px;
+}
+.address-list-modal {
   margin-top: 284px;
 }
 .address-item-modal {
@@ -796,13 +801,12 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .social-list-menu {
   display: flex;
   margin-top: 8px;
-}
-
-.social-item-menu:not(:last-child) {
-  margin-right: 56px;
+  justify-content: space-between;
+  max-width: 328px;
 }
 
 .social-links-menu {
@@ -826,8 +830,9 @@ address {
   height: 24px;
   fill: var(--secondary-light-background);
 }
+
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
+    width: 100%;
   }
 }

@@ -42,7 +42,7 @@
     letter-spacing: 0.02em;
     font-weight: 500;
 
-    padding: 24px 0;
+    padding: 24px 0 22px 0;
   }
 
   .menu-link.current {
@@ -157,5 +157,9 @@
   }
   .footer-text {
     width: 264px;
+  }
+  .modal {
+    width: 408px;
+    height: 586px;
   }
 }

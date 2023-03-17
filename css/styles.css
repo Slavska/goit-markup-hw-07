@@ -25,7 +25,7 @@
 
 /*-----------------------COMPONENTS-----------------*/
 
-body {
+/* body {
   font-family: var(--primary-text-style);
   color: var(--primary-text-color-light-background);
   background-color: (var(--primary-light-background));
@@ -93,7 +93,7 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 */
 
 /* .subtitle {
