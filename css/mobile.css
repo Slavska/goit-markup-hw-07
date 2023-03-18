@@ -145,8 +145,6 @@ address {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 24px 16px;
   width: 100%;
 }
 .logo-light-background {
@@ -167,11 +165,12 @@ address {
 }
 .backdrop-menu {
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -181,12 +180,12 @@ address {
 .modal-menu {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 80px 35px 40px 40px;
 }
 .page-menu-modal {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100%;
 }
 .menu-item-modal:not(:last-child) {
   margin-bottom: 40px;
@@ -200,7 +199,6 @@ address {
 .address-list-modal-menu {
   display: flex;
   flex-direction: column;
-  /* margin-top: calc(100% - 220px); */
 }
 .address-item-modal {
   margin-bottom: 48px;
@@ -249,6 +247,8 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  padding: 24px 0;
 }
 .icon-menu-btn {
   stroke: #2e2f42;
@@ -364,6 +364,9 @@ address {
 }
 .advantages-item {
   flex-basis: calc((100%) / 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .advantages-text {
   font-weight: 500;
@@ -435,7 +438,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 190px;
+  width: 100%;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -444,6 +447,9 @@ address {
 .customers-link:focus,
 .customers-link:hover {
   border: 1px solid var(--primary-color-accent);
+}
+.customers-item {
+  flex-basis: calc((100% - 16px) / 2);
 }
 .customers-icon {
   width: 110px;
@@ -827,15 +833,9 @@ address {
   .footer-form-input {
     width: 398px;
   }
-  .advantages-item {
-    max-width: 396px;
-  }
   .tel-link-modal {
     font-weight: 700;
     font-size: 36px;
-  }
-  .page-menu-modal {
-    margin-bottom: 284px;
   }
   .modal {
     width: 392px;
@@ -846,5 +846,11 @@ address {
   }
   .projects-filtr {
     justify-content: center;
+  }
+  .customers-link {
+    width: 190px;
+  }
+  .customers-item {
+    flex-basis: auto;
   }
 }

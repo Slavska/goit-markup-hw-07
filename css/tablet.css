@@ -4,9 +4,6 @@
     width: 768px;
   }
   /* HEADER */
-  .header-container {
-    padding: 0;
-  }
   .btn-menu-open {
     display: none;
   }
@@ -22,7 +19,7 @@
     align-items: center;
   }
   .address {
-    margin-left: 118px;
+    margin-left: auto;
   }
   .menu-item:not(:last-child) {
     margin-right: 40px;
@@ -87,6 +84,7 @@
   }
   .advantages-item {
     flex-basis: calc((100% - var(--card-set-gap)) / 2);
+    align-items: flex-start;
   }
   /* TEAM */
   .team-list {
