@@ -24,6 +24,7 @@
   }
   .address-item:not(:last-child) {
     margin-right: 40px;
+    margin-bottom: 0;
   }
   .menu-link {
     padding: 24px 0 28px 0;
@@ -70,7 +71,6 @@
     display: block;
     padding-top: 0;
   }
-
   .works-list {
     display: flex;
     gap: var(--card-set-gap);
@@ -110,10 +110,10 @@
     padding-bottom: 100px;
     padding-left: 0;
   }
-
   .footer-container {
     align-items: baseline;
   }
+  /* MODAL */
   .modal {
     width: 408px;
     height: 584px;

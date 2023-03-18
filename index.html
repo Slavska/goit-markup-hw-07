@@ -18,7 +18,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
     <link rel="stylesheet" href="./css/desktop.css" />
@@ -62,16 +61,16 @@
           </svg>
         </button>
         <div class="backdrop-menu is-hidden" data-menu>
+          <button
+            class="modal-close-btn menu-btn"
+            type="button"
+            data-menu-close
+          >
+            <svg class="modal-icon-btn">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+          </button>
           <div class="modal-menu">
-            <button
-              class="modal-close-btn menu-btn"
-              type="button"
-              data-menu-close
-            >
-              <svg class="modal-icon-btn">
-                <use href="./images/icons.svg#icon-vector"></use>
-              </svg>
-            </button>
             <ul class="page-menu-modal list">
               <li class="menu-item-modal">
                 <a class="menu-link-modal subtitle link" href="./index.html"
