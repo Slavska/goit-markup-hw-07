@@ -139,6 +139,9 @@ address {
   margin-bottom: 8px;
 }
 /* HEADER */
+.logo-light-background {
+  padding: 24px 0;
+}
 .page-header {
   border-bottom: 1px solid var(--border-wrapper-color);
 }
