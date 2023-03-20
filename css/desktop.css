@@ -29,9 +29,6 @@
   .menu-link {
     padding: 24px 0 28px 0;
   }
-  .menu-link.current::after {
-    content: '';
-    bottom: -1px;
   /* HERO */
   .page-hero {
     padding-top: 188px;
